@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.lumine</groupId>
+	<artifactId>lumine</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>SparkMod</name>
+	<description>A modification for the Minecraft Server software, adding a comprehensive and fast plugin architecture</description>
+
+	<modules>
+		<module>lumine-command</module>
+		<module>lumine-core</module>
+		<module>lumine-java</module>
+		<module>lumine-example-plugin</module>
+		<module>lumine-craft</module>
+	</modules>
+</project>
